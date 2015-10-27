@@ -1,0 +1,7 @@
+/Config/database.php
+/Config/Schema
+/tmp
+cache
+logs
+sessions
+/tmp/tests

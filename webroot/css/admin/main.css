@@ -1,0 +1,78 @@
+#container {
+    min-height: 600px;
+    padding-top: 80px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    color: #999;
+    margin-top: 100px;
+    padding: 40px 20px;
+}
+footer p {
+    font-size: 11px;
+    margin-bottom: 0;
+}
+
+table#sortable {
+	position: relative;
+}
+
+table#sortable tr {
+	cursor: pointer;
+}
+
+td.actions a {
+	margin-right: 10px;
+}
+
+td.actions a:last-child {
+	margin-right: 0;
+}
+
+.right{
+    float:right !important;
+}
+
+.hide{
+    display:none !important;
+}
+
+#map{
+    height:400px;
+    width:700px;
+    float:right;
+    top:-100px;
+}
+
+#cke_1_contents{
+    height:500px !important;
+}
+
+#view-story{
+    height:600px;
+    width:600px;
+}
+.controls a{
+    margin-left: 12px;
+}
+/******************************
+    Login Page
+******************************/
+
+#loginView { 
+    margin: auto;
+}
+
+
+/* Helper classes */
+/* For image replacement */
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.ir br { display: none; }
+.alignRight {
+    text-align: right;
+}

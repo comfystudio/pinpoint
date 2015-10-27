@@ -1,0 +1,250 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'IconsRegular';
+    src: url('icons-webfont.eot');
+    src: url('icons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('icons-webfont.woff') format('woff'),
+         url('icons-webfont.ttf') format('truetype'),
+         url('icons-webfont.svg#IconsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.icon {
+	background-image: none;
+    width: auto;
+    height: auto;
+}
+.icon:before {
+    font-family: "IconsRegular";
+    margin-right: 3px;
+}
+.icon-replace {
+    text-indent: -9999px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    min-width: 1em;
+}
+.icon-replace:before {
+    position: absolute;
+    left: 0;  /* Firefox needs to be explicit here */
+    top: 0;
+    text-indent: 0;
+}
+.icon:hover {
+    text-decoration: none;
+}
+
+.icon-3d:before { content: '"'; }
+
+.icon-add:before { content: '!'; }
+.icon-addressbook:before { content: '#'; }
+.icon-alert-alt:before { content: "$"; }
+.icon-alert:before { content: "%"; }
+.icon-arrow-down:before { content: "'"; }
+.icon-arrow-left:before { content: "("; }
+.icon-arrow-right:before { content: ")"; }
+.icon-arrow-up:before { content: '*'; }
+.icon-attachment:before { content: "+"; }
+
+.icon-badge-add:before { content: ","; }
+.icon-badge-remove:before { content: "-"; }
+.icon-badge-restricted:before { content: "."; }
+.icon-bar-chart:before { content: "/"; }
+.icon-bars:before { content: "0"; }
+.icon-battery-full:before { content: "1"; }
+.icon-battery-low:before { content: "2"; }
+.icon-bell-off:before { content: "3"; }
+.icon-bell:before { content: "4"; }
+.icon-block:before { content: "5"; }
+.icon-bluetooth:before { content: "6"; }
+.icon-book-alt-2:before { content: "7"; }
+.icon-book-alt:before { content: "8"; }
+.icon-book:before { content: "9"; }
+.icon-bookmark:before { content: ":"; }
+.icon-box:before { content: ";"; }
+.icon-box:before { content: ";"; }
+.icon-brush:before { content: "<"; }
+.icon-bug:before { content: "="; }
+.icon-bulleted-list:before { content: ">"; }
+
+.icon-calendar-alt:before { content: "@"; }
+.icon-calendar:before { content: "A"; }
+.icon-chart:before { content: "B"; }
+.icon-chat-active:before { content: "C"; }
+.icon-chat:before { content: "D"; }
+.icon-check:before { content: "E"; }
+.icon-checkbox-dotted-active:before { content: "F"; }
+.icon-checkbox-dotted:before { content: "G"; }
+.icon-checkbox-empty:before { content: "H"; }
+.icon-checkbox-active:before { content: "I"; }
+.icon-client:before { content: "J"; }
+.icon-cloud-upload:before { content: "K"; }
+.icon-cloud:before { content: "L"; }
+.icon-code:before { content: "M"; }
+.icon-color-bucket:before { content: "N"; }
+.icon-color-picker:before { content: "O"; }
+.icon-command:before { content: "P"; }
+.icon-company:before { content: "Q"; }
+.icon-connection:before { content: "R"; }
+.icon-contrast:before { content: "S"; }
+.icon-conversation:before { content: "T"; }
+.icon-coverflow:before { content: "U"; }
+.icon-credit-card-alt:before { content: "V"; }
+.icon-credit-card:before { content: "W"; }
+.icon-curve:before { content: "X"; }
+.icon-cut:before { content: "Y"; }
+
+.icon-dashboard:before { content: "Z"; }
+.icon-delete:before { content: "["; }
+.icon-disc:before { content: "\\"; }
+.icon-display:before { content: "]"; }
+.icon-document:before { content: "^"; }
+.icon-documents:before { content: "_"; }
+.icon-download:before { content: "`"; }
+
+.icon-edit:before { content: "a"; }
+.icon-eject:before { content: "b"; }
+.icon-employee:before { content: "c"; }
+.icon-enter:before { content: "d"; }
+.icon-equalizer:before { content: "e"; }
+.icon-ethernet:before { content: "f"; }
+.icon-exit-fullscreen:before { content: "g"; }
+.icon-eye:before { content: "h"; }
+
+.icon-factory:before { content: "i"; }
+.icon-favourite:before { content: "j"; }
+.icon-firewire:before { content: "k"; }
+.icon-flag-alt:before { content: "l"; }
+.icon-flag:before { content: "m"; }
+.icon-flash:before { content: "n"; }
+.icon-folder-open:before { content: "o"; }
+.icon-folder:before { content: "p"; }
+.icon-font:before { content: "q"; }
+.icon-fullscreen-alt:before { content: "r"; }
+.icon-fullscreen:before { content: "s"; }
+
+.icon-gamepad:before { content: "t"; }
+.icon-gift:before { content: "u"; }
+.icon-globe:before { content: "v"; }
+
+.icon-hammer:before { content: "w"; }
+.icon-hand-active-alt:before { content: "x"; }
+.icon-hand-active:before { content: "y"; }
+.icon-hand-pointer-alt:before { content: "z"; }
+.icon-hand-pointer:before { content: "{"; }
+.icon-handtool-alt:before { content: "|"; }
+.icon-handtool:before { content: "}"; }
+.icon-hd:before { content: "~"; }
+.icon-headphones:before { content: "€"; }
+.icon-help-alt:before { content: "‚"; }
+.icon-help:before { content: "ƒ"; }
+.icon-home:before { content: "„"; }
+
+.icon-inbox:before { content: "…"; }
+.icon-indent:before { content: "†"; }
+.icon-infinity:before { content: "‡"; }
+.icon-iphone:before { content: "‱"; }
+.icon-info:before { content: "ˆ"; }
+
+.icon-key:before { content: "Š"; }
+.icon-keyboard:before { content: "‹"; }
+
+.icon-laptop:before { content: "Œ"; }
+.icon-layout:before { content: "‘"; }
+.icon-light-up:before { content: "’"; }
+.icon-light-down:before { content: "“"; }
+.icon-list:before { content: "”"; }
+.icon-lightbulb:before { content: "•"; }
+.icon-lightbulb-active:before { content: "–"; }
+.icon-link:before { content: "—"; }
+.icon-loading:before { content: "~"; }
+.icon-locate:before { content: "™"; }
+.icon-lock:before { content: "š"; }
+.icon-logout:before { content: "›"; }
+
+.icon-mailbox:before { content: "œ"; }
+.icon-map-alt:before { content: "Ÿ"; }
+.icon-map:before { content: "¡"; }
+.icon-message-open:before { content: "¢"; }
+.icon-message:before { content: "£"; }
+.icon-mobile-phone:before { content: "¤"; }
+.icon-movie-alt:before { content: "¥"; }
+.icon-movie:before { content: "¦"; }
+.icon-music:before { content: "§"; }
+
+.icon-navigation-first:before { content: "æ"; }
+.icon-navigation-previous:before { content: "ç"; }
+.icon-navigation-next:before { content: "è"; }
+.icon-navigation-last:before { content: "é"; }
+.icon-notepad:before { content: "¨"; }
+
+.icon-ordered-list:before { content: "©"; }
+.icon-out:before { content: "ª"; }
+.icon-outbox:before { content: "«"; }
+.icon-outdent:before { content: "¬"; }
+
+.icon-page-add:before { content: "−"; }
+.icon-page-remove:before { content: "®"; }
+.icon-page-restricted:before { content: "¯"; }
+.icon-panel-close:before { content: "°"; }
+.icon-panel-open:before { content: "±"; }
+.icon-people:before { content: "²"; }
+.icon-phone:before { content: "³"; }
+.icon-picture:before { content: "´"; }
+.icon-pictures-alt:before { content: "µ"; }
+.icon-pictures-alt-2:before { content: "¶"; }
+.icon-pictures:before { content: "·"; }
+.icon-pie-chart:before { content: "¸"; }
+.icon-pin-location:before { content: "¹"; }
+.icon-plugin:before { content: "º"; }
+.icon-podcast:before { content: "»"; }
+.icon-print:before { content: "¼"; }
+.icon-print-alt:before { content: "½"; }
+.icon-pushpin:before { content: "¾"; }
+
+.icon-radio-alt:before { content: "¿"; }
+.icon-radio:before { content: "À"; }
+.icon-rate:before { content: "Á"; }
+.icon-read-only:before { content: "Â"; }
+.icon-refresh:before { content: "Ã"; }
+.icon-reply:before { content: "Ä"; }
+.icon-rss:before { content: "Å"; }
+
+.icon-search:before { content: "Æ"; }
+.icon-settings:before { content: "Ç"; }
+.icon-share:before { content: "È"; }
+.icon-shield:before { content: "É"; }
+.icon-shopping-cart:before { content: "Ê"; }
+.icon-slideshow:before { content: 'Ë'; }
+.icon-sync:before { content: 'Ì'; }
+
+.icon-tag:before { content: "Í"; }
+.icon-tags:before { content: "Î"; }
+.icon-target:before { content: "Ï"; }
+.icon-thumb-down:before { content: "Ð"; }
+.icon-thumb-up:before { content: "Ñ"; }
+.icon-thumbnails:before { content: "Ò"; }
+.icon-thumbnails-small:before { content: "Ó"; }
+.icon-thumbnail-list:before { content: "Ô"; }
+.icon-time:before { content: "Õ"; }
+.icon-tools:before { content: "Ö"; }
+.icon-trash:before { content: "×"; }
+.icon-trash-alt:before { content: "Ø"; }
+
+.icon-universal:before { content: "Ù"; }
+.icon-unlock:before { content: "Ú"; }
+.icon-user:before { content: "Û"; }
+.icon-users-alt:before { content: "Ü"; }
+.icon-users:before { content: "Ý"; }
+.icon-utilities:before { content: "Þ"; }
+
+.icon-vcard:before { content: "ß"; }
+.icon-video:before { content: "à"; }
+.icon-voice:before { content: "á"; }
+
+.icon-wand:before { content: "å"; }
+.icon-wrench:before { content: "â"; }
+
+.icon-zoom-in:before { content: "ã"; }
+.icon-zoom-out:before { content: "ä"; }
